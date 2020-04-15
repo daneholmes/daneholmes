@@ -113,6 +113,7 @@
   section {
     transform: skew(-2deg);
     border-left-width: 0.4rem;
+    border-right-width: 0rem;
     border-left-style: solid;
     border-image: -webkit-linear-gradient(-90deg, rgb(97,46,182), rgb(0, 167, 201), rgb(106,155,18), rgb(241,89,82)) 1 100%;
     padding-left: 3rem;
@@ -121,6 +122,7 @@
   section_reverse {
     transform: skew(-2deg);
     border-right-width: 0.4rem;
+    border-left-width: 0rem;
     border-right-style: solid;
     border-image: -webkit-linear-gradient(-90deg, rgb(97,46,182), rgb(0, 167, 201), rgb(106,155,18), rgb(241,89,82)) 1 100%;
     padding-right: 3rem;
