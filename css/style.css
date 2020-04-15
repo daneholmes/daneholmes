@@ -116,7 +116,7 @@
     border-left-style: solid;
     border-image: -webkit-linear-gradient(-90deg, #2569b4, #d51968, #f47521, #00d60e) 1 100%;
     padding-left: 3rem;
-}
+    }
 }
 
 
@@ -128,7 +128,7 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 62.5%;}
 body {
-  font-size: 2.5rem; /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-size: 2rem; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 300;
   font-family: 'ChronicleDisplay', serif;
@@ -189,13 +189,17 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
   h1 { font-size: 7.0rem; }
   h2 { font-size: 5.0rem; }
   h3 { font-size: 3.6rem; }
+  section h3  {transform: skew(2deg); }
   h4 { font-size: 3.0rem; }
   h5 { font-size: 2.4rem; }
   h6 { font-size: 1.5rem; }
+  p { font-size: 2.5rem; }
+  section p { transform: skew(2deg); }
 }
 
 p {
-  margin-top: 0; }
+  margin-top: 0;
+  }
 
 em {
    font-family: 'ChronicleDisplayItalic', serif;
