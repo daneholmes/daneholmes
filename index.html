@@ -42,11 +42,17 @@
       <section_reverse class="twelve column">
         <h3>Contact Me</h3>
         <p>Posuere lorem ipsum dolor sit amet consectetur adipiscing elit duis. Mauris vitae ultricies leo integer malesuada nunc vel.</p>
-        <form>
-          <input class="u-full-width" type="text" placeholder="Name">
-          <input class="u-full-width" type="email" placeholder="Email">
-          <textarea class="u-full-width" placeholder="Message"></textarea>
-          <div style="text-align: center;"><input class="button-primary" type="submit" value="Submit"></div>
+        <form action="https://formspree.io/xyydvjzr" method="POST">
+          <label>
+            <input type="text" placeholder="Name" class="u-full-width">
+          </label>
+          <label>
+            <input type="email" name="_replyto" placeholder="Email" class="u-full-width">
+          </label>
+          <label>
+            <textarea name="message" placeholder="Message"></textarea>
+          </label>
+          <div style="text-align: center;"><button class="button-primary" type="submit" value="Submit">Send</button></div>
         </form>
       </section>
     </div>
