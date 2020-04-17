@@ -44,7 +44,7 @@
 /* For devices larger than 400px */
 @media (min-width: 400px) {
   .container {
-    width: 85%;
+    width: 95%;
     padding: 0; }
 }
 
@@ -118,7 +118,7 @@
     border-image: -webkit-linear-gradient(-90deg, rgb(97,46,182), rgb(0, 167, 201), rgb(106,155,18), rgb(241,89,82)) 1 100%;
     padding-left: 3rem;
     }
-    
+
   section_reverse {
     transform: skew(-2deg);
     border-right-width: 0.4rem;
@@ -129,6 +129,14 @@
     }
 }
 
+  section {
+  border-left-width: 0.4rem;
+  border-right-width: 0rem;
+  border-left-style: solid;
+  border-image: -webkit-linear-gradient(-90deg, rgb(97,46,182), rgb(0, 167, 201), rgb(106,155,18), rgb(241,89,82)) 1 100%;
+  padding-left: 0.75rem;
+  margin-left: -2.4%;
+  }
 
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -140,7 +148,7 @@ html {
 @media (prefers-color-scheme: light) {
 body {
   font-size: 2rem; /* currently ems cause chrome bug misinterpreting rems on body element */
-  line-height: 1.6;
+  line-height: 1.6em;
   font-weight: 300;
   font-family: 'ChronicleDisplay', serif;
   color: rgb(34,34,34); }
@@ -148,7 +156,7 @@ body {
 @media (prefers-color-scheme: dark) {
 body {
   font-size: 2rem; /* currently ems cause chrome bug misinterpreting rems on body element */
-  line-height: 1.6;
+  line-height: 1.5em;
   font-weight: 300;
   font-family: 'ChronicleDisplay', serif;
   background: rgb(36,37,40);
@@ -205,21 +213,22 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'GT-AmericaBold', sans-serif;
   font-weight: 600;
 }
-h1 { font-size: 4.0rem; line-height: 1.2; letter-spacing: -.1rem; text-align: center; }
-h2 { font-size: 3.6rem; line-height: 1.25; letter-spacing: -.1rem; }
-h3 { font-size: 3.0rem; line-height: 1.3;  letter-spacing: -.1rem; }
+h1 { font-size: 4.0rem; line-height: 1.2; letter-spacing: -.1rem; text-align: center; padding: 5rem 0 7rem 0;}
+h2 { font-size: 3.0rem; line-height: 1.25; letter-spacing: -.1rem;}
+h3 { font-size: 2.3rem; line-height: 1.0;  letter-spacing: -.1rem; padding-top: 1em;}
+.subtitle  { font-size: 2.3rem; line-height: 1.0;  letter-spacing: -.1rem; margin: -1em 0 0.6em 0;}
 h4 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
 h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
 h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
-/* Larger than phablet */
+/* Larger than phablet */1
 @media (min-width: 550px) {
   h1 {
     font-size: 7.0rem; 
     padding: 5rem 0 5rem 0;
   }
   h2 { font-size: 5.0rem; }
-  h3 { font-size: 3.6rem; }
+  h3 { font-size: 3.6rem;}
   section_reverse h3, section h3  {transform: skew(2deg); }
   h4 { font-size: 3.0rem; }
   h5 { font-size: 2.4rem; }
