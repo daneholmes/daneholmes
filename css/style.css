@@ -48,8 +48,7 @@ html {
 	padding: 0;
 }
 
-body:before
-{
+body:before {
 	background-position: 50% 50%;
 	margin: 4rem auto;
 }
@@ -138,8 +137,7 @@ h1, h2, h3 {
 	font-weight: 600;
 }
 
-h1
-{
+h1 {
 	font-size: 4.2em;
 	line-height: 1.1em;
 	margin: 1em auto;
@@ -148,15 +146,13 @@ h1
 	position: relative;
 }
 
-h2
-{
+h2 {
 	font-size: 2.3em;
 	line-height: 1;
 	margin: 2em auto 1em auto;
 }
 
-h3
-{
+h3 {
 	font-size: 2.0em;
 	line-height: 1;
 	margin: -0.5em auto -0.5em auto;
@@ -226,115 +222,70 @@ input#submit {
 /* Responsive
 --------------------------------------- */
 
-@media screen and (max-width: 950px)
-{
-
-	section
-	{
+@media screen and (max-width: 950px) {
+	section {
 		transform: skew(-1deg);
 	}
 	
-	p, h2, h3
-	{
+	p, h2, h3 {
 		transform: skew(1deg);
 	}
 
-	section:nth-of-type(1)
-	{
+	section:nth-of-type(1) {
 		right: 3rem;
 	}
 	
-	section:nth-of-type(2)
-	{
+	section:nth-of-type(2) {
 		left: 3rem;
 	}
 	
-	section:nth-of-type(3)
-	{
+	section:nth-of-type(3) {
 		left: 3rem;
 	}
-
 }
 
-@media screen and (max-width: 800px)
-{
-
-	section
-	{
+@media screen and (max-width: 800px) {
+	section {
 		transform: skew(0deg);
 	}
 	
-	figure#particles
-	{
-		margin: -4rem 0 -8rem 0;
-	}
-
-	figure#particles canvas#canvas
-	{
-		width: 100vw;
-		height: 50vw;
-	}
-	
-	p, h2, h3
-	{
+	p, h2, h3 {
 		transform: skew(0deg);
 	}
 	
-	section:nth-of-type(1)
-	{
+	section:nth-of-type(1) {
 		right: 0;
 		padding: 0 1em 1em 1em;
 		margin-bottom: -1em;
 		border-left-width: 0.5rem;
 	}
 	
-	section:nth-of-type(2)
-	{
+	section:nth-of-type(2) {
 		left: 0;
 		margin-top: -4em;
 		padding: 1em 1em 2em 1em;
 		border-right-width: 0.5rem;
 	}
 	
-	section:nth-of-type(3)
-	{
+	section:nth-of-type(3) {
 		left: 0;
 		margin-top: -4em;
 		padding: 1em 1em 2em 1em;
 		border-right-width: 0.5rem;
 	}
-
 }
 
-@media screen and (max-width: 480px)
-{
-
-	body
-	{
+@media screen and (max-width: 480px) {
+	body {
 		font-size: 0.85rem;
 	}
 	
-	figure#particles
-	{
-		margin: 0 auto -4rem auto;
-		max-width: 100vw;
-	}
-	
-	figure#particles canvas#canvas
-	{
-		width: 48rem
-		height: 24rem;
-	}
-	
-	h1
-	{
+	h1 {
 		padding: 0 2rem;
 	}
 	
-	p
-	{
+	p {
 		font-size: 2.6em;
 		line-height: 1.5em;
 	}
-
 }
