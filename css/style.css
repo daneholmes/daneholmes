@@ -95,7 +95,7 @@ section:nth-of-type(1) {
 	right: 5rem;
 	border-left-width: 0.4rem;
 	border-left-style: solid;
-	border-image: -webkit-linear-gradient(-90deg, rgb(63,95,181), rgb(138,98,206), rgb(255,0,72), rgb(255,159,0)) 1 100%;
+	border-image: -webkit-linear-gradient(-90deg, rgb(239,45,86), rgb(61,165,217), rgb(135,163,48)) 1 100%;
 	padding-left: 3rem;
 	padding-bottom: 3rem;
 	margin-bottom: -4rem;
@@ -105,7 +105,7 @@ section:nth-of-type(3) {
 	left: 5rem;
 	border-right-width: 0.4rem;
 	border-right-style: solid;
-	border-image: -webkit-linear-gradient(90deg, rgb(255,159,0), rgb(255,0,72), rgb(138,98,206), rgb(63,95,181)) 1 100%;
+	border-image: -webkit-linear-gradient(-90deg, rgb(135,163,48), rgb(61,165,217), rgb(239,45,86)) 1 100%;
 	padding-right: 3rem;
 	padding-top: 3rem;
 	margin-top: -7rem;
@@ -113,25 +113,6 @@ section:nth-of-type(3) {
 
 /* Typography
 --------------------------------------- */
-p {
-	font-size: 2em;	
-	line-height: 1.6em;
-	margin: 0.5em 0 1 0;
-	text-align: left;
-}
-
-em {
-	font-family: 'ChronicleDisplayItalic', serif;
-	font-weight: normal;
-	font-style: normal;
-}
-
-strong {
-	font-family: 'ChronicleDisplayBold', serif;
-	font-weight: normal;
-	font-style: normal;
-}
-
 h1, h2, h3 {
 	font-family: "GT-AmericaBold", sans-serif;
 	font-weight: 600;
@@ -156,6 +137,34 @@ h3 {
 	font-size: 2.0em;
 	line-height: 1;
 	margin: -0.5em auto -0.5em auto;
+}
+
+p {
+	font-size: 2em;	
+	line-height: 1.6em;
+	margin: 0.5em 0 1 0;
+	text-align: left;
+}
+
+em {
+	font-family: 'ChronicleDisplayItalic', serif;
+	font-weight: normal;
+	font-style: normal;
+}
+
+strong {
+	font-family: 'ChronicleDisplayBold', serif;
+	font-weight: normal;
+	font-style: normal;
+}
+
+a {
+	text-decoration-skip: ink;
+	color: rgb(84,19,197);
+}
+
+::selection {
+  background: rgb(255,216,0);
 }
 
 /* Form
@@ -193,6 +202,13 @@ input, textarea {
 	font-family: "ApercuMono";
 }
 
+textarea {
+	min-width: 100%;
+	min-height: 4.5rem;
+	height: 13.5rem;
+	resize: vertical;
+}
+
 label {
 	display: none;
 }
@@ -202,7 +218,7 @@ label {
 	color: rgb(0, 0, 0);
 }
 
-input:focus {
+input:focus, textarea:focus {
 	outline: none;
 	border-width: 0.25rem;
 	border-style: solid;
