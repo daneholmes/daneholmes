@@ -62,7 +62,7 @@ body {
 	font-style: normal;
 	font-weight: 300;
 	background-color: rgb(255, 255, 255);	
-	color: rgb(34, 34, 34);
+	color: rgb(34, 34, 34);	
 }
 
 .container {
@@ -165,6 +165,10 @@ a {
 
 ::selection {
   background: rgb(255,216,0);
+}
+
+.name {
+	color: rgb(84,19,197);
 }
 
 /* Form
@@ -303,5 +307,25 @@ input#submit {
 	p {
 		font-size: 2.6em;
 		line-height: 1.5em;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: rgb(36, 37, 40);	
+		color: rgb(255, 255, 255);
+	}
+	.name, a {
+		color: rgb(138,98,206);
+	}
+	input, textarea {
+		background-color: rgb(23, 24, 26);
+		color: rgb(240, 240, 240);
+	}
+	input:focus, textarea:focus {
+		border-color: rgb(138,98,206);
+	}
+	::placeholder {
+		color: rgb(192, 192, 192);
 	}
 }
