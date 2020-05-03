@@ -12,37 +12,37 @@
 
 @font-face {
 	font-family: 'ChronicleDisplay';
-	src: url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ChronicleDisp-Roman.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ChronicleDisp-Roman.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ChronicleDisp-Roman.ttf') format('truetype');
+	src: url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/media/fonts/ChronicleDisp-Roman.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ChronicleDisp-Roman.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ChronicleDisp-Roman.ttf') format('truetype');
 	font-display: swap;
 }
 
 @font-face {
 	font-family: 'ChronicleDisplayItalic';
-	src: url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ChronicleDisp-Italic.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ChronicleDisp-Italic.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ChronicleDisp-Italic.ttf') format('truetype');
+	src: url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/media/fonts/ChronicleDisp-Italic.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ChronicleDisp-Italic.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ChronicleDisp-Italic.ttf') format('truetype');
 	font-display: swap;
 }
 
 @font-face {
 	font-family: 'ChronicleDisplayBold';
-	src: url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ChronicleDisp-Bold.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ChronicleDisp-Bold.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ChronicleDisp-Bold.ttf') format('truetype');
+	src: url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/media/fonts/ChronicleDisp-Bold.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ChronicleDisp-Bold.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ChronicleDisp-Bold.ttf') format('truetype');
 	font-display: swap;
 }
 
 @font-face {
 	font-family: 'ChronicleDisplayBoldItalic';
-	src: url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ChronicleDisp-BoldItal.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ChronicleDisp-BoldItal.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ChronicleDisp-BoldItal.ttf') format('truetype');
+	src: url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/media/fonts/ChronicleDisp-BoldItal.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ChronicleDisp-BoldItal.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ChronicleDisp-BoldItal.ttf') format('truetype');
 	font-display: swap;
 }
 
 @font-face {
 	font-family: 'GT-AmericaBold';
-	src: url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/GT-America-Bold.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/GT-America-Bold.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/GT-America-Bold.ttf') format('truetype');
+	src: url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/media/fonts/GT-America-Bold.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/GT-America-Bold.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/GT-America-Bold.ttf') format('truetype');
 	font-display: swap;
 }
 
 @font-face {
 	font-family: 'ApercuMono';
-	src: url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ApercuMono.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ApercuMono.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ApercuMono.ttf') format('truetype');
+	src: url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/media/fonts/ApercuMono.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ApercuMono.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ApercuMono.ttf') format('truetype');
 	font-display: swap;
 }
 
