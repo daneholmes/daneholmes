@@ -169,10 +169,6 @@ a {
 	color: rgb(84,19,197);
 }
 
-::selection {
-  background: rgb(255,216,0);
-}
-
 .name {
 	color: rgb(84,19,197);
 }
