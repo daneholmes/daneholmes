@@ -30,22 +30,24 @@
 	</head>
 	
 	<body>
-		
 		<div class="container">
-			<h1>Hello! My name is <span class="name"">Dane Holmes</span> and this is all about me.</h1>
+			
+			<h1>Hello! My name is <span class="name">Dane Holmes</span> and this is all about me.</h1>
 				
 			<section>
 				<p>I am a currently a third-year student at Northwestern University where I am double majoring in English Literature and statistics, as well as getting a minor in data science.</p>
 				<h2>About Me</h2>
-				<p>I currently live in Chicago, but prior to living here, I lived in Tokyo, Japan. After graduating from Lane Tech College Prep in 2017, I went to Truman College and graduated with an Associate of Arts degree in a year and a half. After finishing community college, before starting at Northwestern, I worked for the Chicago Public Library as a Cyber Navigator. There, I traveled all over Chicago helping amazing people with countless issues, and I would not trade the experience for anything.</p>
+				<p>I currently live in Chicago, but prior to living here, I lived in Tokyo, Japan. After graduating from Lane Tech College Prep in 2017, I went to Truman College and graduated as a presidential scholar with an Associate of Arts degree in a year and a half. After finishing community college, before starting at Northwestern, I worked for the Chicago Public Library as a Cyber Navigator. There, I traveled all over Chicago helping amazing people with countless issues, and I would not trade the experience for anything.</p>
 				<p><strong>Fun Facts:</strong> As a Cyber Navigator, I helped at least 15 people get jobs, assisted with one divorce, filed all kinds of taxes, edited one novel, and so much more.</p>
-				<p>Outside of school and work, I spend my time making websites, like this one, teaching my self programming, and, recently, learning as much as I can about computer networking and privacy. Outside of my computer bubble, I row for the Northwestern crew team, and play lacrosse casually.</p>
+				<p>Outside of school and work, I spend my time making websites, like this one, teaching my self programming, and, recently, learning as much as I can about computer networking and privacy. Outside of my computer bubble, I row for the Northwestern crew team, try to read and write, and play lacrosse pretty casually.</p>
 			</section>
 			
 			<section>
 				<h2>Projects</h2>
 					<h3>Affixionary</h3>
 						<p class="indent"><a href="https://affixionary.com">Affixionary</a> is a website that serves as an etymological dictionary of English affixes. Currently, it only contains prefixes, but I hope to soon add suffixes and bases. I also hope to rebuild it soon and possibly implement a free, open API.</p>
+					<h3>Crypto-Dash</h3>
+						<p class="indent"><a href="https://github.com/DaneHolmes/CRYPTO-DASH">Crypto-Dash</a> is a shiny app framework mostly written in  tidyverse R. It automatically preforms basic financial analysis of live cryptocurrency data and displays the information through a variety of graphs. Crypto-Dash is still being improved in how it display trends in the most common cryptocurrencies. </p>
 			</section>
 			
 			<section>
@@ -57,25 +59,11 @@
 						<label for="email">Email</label>
 							<input type="email" name="email" id="email" placeholder="Email" required autocomplete="email" aria-label="Email" />
 						<label for="email">Your Message</label>
-							<textarea  type="text" name="message" placeholder="Message" required aria-label="Message"></textarea>
+							<textarea name="message" placeholder="Message" required aria-label="Message"></textarea>
 						<input type="submit" name="submit" id="submit" value="" />
 					</form>
 			</section>
 			
 		</div>
-		
-		<script type="text/javascript">
-			var url = window.location.toString();
-			var query_string = url.split("?");
-				if (query_string[1]) {
-					var params = query_string[1].split("&#038;");
-					var param_item = params[0].split("=");
-						param_item[param_item[0]] = unescape(param_item[1]);
-					document.getElementById('submit').value = param_item["message"];
-				} else {
-                    document.getElementById('submit').value = "Send!";
-				}
-		</script>
-		
 	</body>
 </html>
