@@ -117,6 +117,7 @@ section:nth-of-type(3) {
 	margin-top: -7rem;
 }
 
+
 /* Typography
 --------------------------------------- */
 h1, h2, h3 {
@@ -148,7 +149,8 @@ h3 {
 p {
 	font-size: 2em;	
 	line-height: 1.6em;
-	margin: 0.5em 0 1 0;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
 	text-align: left;
 }
 
@@ -173,26 +175,33 @@ a {
 	color: rgb(84,19,197);
 }
 
+footer {
+	text-align: center;
+}
+
+footer p {
+	text-align: center;
+	transform: skew(1deg);
+	font-family: "GT-AmericaBold", sans-serif;
+	font-size: 1.3em;
+	padding-top: 1em;
+	margin-bottom: 0.2em;
+}
+
 /* Form
 --------------------------------------- */
 form {
-	display: -ms-grid;
 	display: grid;
-		-ms-grid-columns: auto;
 	grid-template-columns: auto;
-		-ms-grid-rows: auto;
 	grid-template-rows: auto;
 	grid-column-gap:0em;
 	grid-row-gap: 0.5em;
-		-ms-justify-items: start;
 	justify-items: start;
-		-ms-align-items: center;
 	align-items: center;
 	padding-right: 3rem;
 }
 
 input, textarea {
-	-webkit-appearance: none;
 	padding: 0;
 	margin: 0;
 	border: 0;
@@ -204,8 +213,7 @@ input, textarea {
 	color: rgb(0, 0, 0);
 	background-color: rgb(240, 240, 240);
 	width: 100%;
-	-webkit-box-sizing: border-box;
-	font-family: "ApercuMono";
+	font-family: "ApercuMono", monospace;
 }
 
 textarea {
@@ -220,7 +228,7 @@ label {
 }
 
 ::placeholder {
-	font-family: "ApercuMono";
+	font-family: "ApercuMono", monospace;
 	color: rgb(0, 0, 0);
 }
 
@@ -229,7 +237,7 @@ input:focus, textarea:focus {
 	border-width: 0.25rem;
 	border-style: solid;
 	border-color: rgb(84,19,197);
-	font-family: "ApercuMono";
+	font-family: "ApercuMono", monospace;
 }
 
 input#submit {
@@ -248,10 +256,6 @@ input#submit {
 	section {
 		transform: skew(-1deg);
 	}
-	
-	p, h2, h3 {
-		transform: skew(1deg);
-	}
 
 	section:nth-of-type(1) {
 		right: 3rem;
@@ -264,14 +268,14 @@ input#submit {
 	section:nth-of-type(3) {
 		left: 3rem;
 	}
+	
+	p, h2, h3 {
+		transform: skew(1deg);
+	}
 }
 
 @media screen and (max-width: 800px) {
 	section {
-		transform: skew(0deg);
-	}
-	
-	p, h2, h3 {
 		transform: skew(0deg);
 	}
 	
@@ -294,6 +298,10 @@ input#submit {
 		margin-top: -4em;
 		padding: 1em 1em 2em 1em;
 		border-right-width: 0.5rem;
+	}
+	
+	p, h2, h3 {
+		transform: skew(0deg);
 	}
 }
 
@@ -329,5 +337,9 @@ input#submit {
 	}
 	::placeholder {
 		color: rgb(192, 192, 192);
+	}
+	
+	.svg {
+		fill: rgb(255, 255, 255);
 	}
 }
