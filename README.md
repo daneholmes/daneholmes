@@ -1,6 +1,6 @@
 # [daneholmes.com](https://daneholmes.com)
 This is the source code to my [personal website](https://daneholmes.com).
-The site is currently deployed to GitHub Pages.
+This is currently a static website deployed to GitHub Pages.
 
 ## Installation
 1. Run ```git clone https://github.com/DaneHolmes/daneholmes.com.git``` in terminal
@@ -10,3 +10,5 @@ The site is currently deployed to GitHub Pages.
 ## Credits
 1. [Normalize.css](https://github.com/necolas/normalize.css/)
 2. [jsDelivr](https://www.jsdelivr.com) for CDN
+3. [GitHub Pages](https://pages.github.com) for hosting
+4. [Simple Icons](https://github.com/simple-icons/simple-icons)
