@@ -1,14 +1,4 @@
-/* Table of Contents
---------------------------------------- 
-	- Import
-	- Setup
-	- Grid
-	- Typography
-	- Responsive
---------------------------------------- */
-
-/* Import
---------------------------------------- */
+/*----- Import -----*/
 
 @font-face {
 	font-family: 'ChronicleDisplay';
@@ -46,8 +36,7 @@
 	font-display: swap;
 }
 
-/* Setup
---------------------------------------- */
+/*----- Setup -----*/
 html {
 	font-size: 10px;
 	margin: 0;
@@ -95,8 +84,7 @@ p, h2, h3 {
 	transform: skew(2deg);
 }
 
-/* Grid
---------------------------------------- */
+/*----- Grid -----*/
 section:nth-of-type(1) {
 	right: 5rem;
 	border-left-width: 0.4rem;
@@ -118,8 +106,7 @@ section:nth-of-type(3) {
 }
 
 
-/* Typography
---------------------------------------- */
+/*----- Type -----*/
 h1, h2, h3 {
 	font-family: "GT-AmericaBold", sans-serif;
 	font-weight: 600;
@@ -175,21 +162,7 @@ a {
 	color: rgb(84,19,197);
 }
 
-footer {
-	text-align: center;
-}
-
-footer p {
-	text-align: center;
-	transform: skew(1deg);
-	font-family: "GT-AmericaBold", sans-serif;
-	font-size: 1.3em;
-	padding-top: 1em;
-	margin-bottom: 0.2em;
-}
-
-/* Form
---------------------------------------- */
+/*----- Form -----*/
 form {
 	display: grid;
 	grid-template-columns: auto;
@@ -249,8 +222,7 @@ input#submit {
 	color: rgb(255, 	255, 255	)
 }
 
-/* Responsive
---------------------------------------- */
+/*----- Responsive -----*/
 
 @media screen and (max-width: 950px) {
 	section {
@@ -337,9 +309,5 @@ input#submit {
 	}
 	::placeholder {
 		color: rgb(192, 192, 192);
-	}
-	
-	.svg {
-		fill: rgb(255, 255, 255);
 	}
 }
