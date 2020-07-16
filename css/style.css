@@ -1,5 +1,3 @@
-/*----- Import -----*/
-
 @font-face {
 	font-family: 'ChronicleDisplay';
 	src: url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/media/fonts/ChronicleDisp-Roman.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ChronicleDisp-Roman.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ChronicleDisp-Roman.ttf') format('truetype');
@@ -7,20 +5,8 @@
 }
 
 @font-face {
-	font-family: 'ChronicleDisplayItalic';
-	src: url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/media/fonts/ChronicleDisp-Italic.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ChronicleDisp-Italic.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ChronicleDisp-Italic.ttf') format('truetype');
-	font-display: swap;
-}
-
-@font-face {
 	font-family: 'ChronicleDisplayBold';
 	src: url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/media/fonts/ChronicleDisp-Bold.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ChronicleDisp-Bold.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ChronicleDisp-Bold.ttf') format('truetype');
-	font-display: swap;
-}
-
-@font-face {
-	font-family: 'ChronicleDisplayBoldItalic';
-	src: url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/media/fonts/ChronicleDisp-BoldItal.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ChronicleDisp-BoldItal.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/DaneHolmes/daneholmes.com/font/ChronicleDisp-BoldItal.ttf') format('truetype');
 	font-display: swap;
 }
 
@@ -36,7 +22,6 @@
 	font-display: swap;
 }
 
-/*----- Setup -----*/
 html {
 	font-size: 10px;
 	margin: 0;
@@ -56,8 +41,8 @@ body {
 	font-family: "ChronicleDisplay", serif;
 	font-style: normal;
 	font-weight: 300;
-	background-color: rgb(255, 255, 255);	
-	color: rgb(34, 34, 34);	
+	background-color: rgb(255, 255, 255);
+	color: rgb(34, 34, 34);
 }
 
 .container {
@@ -65,7 +50,7 @@ body {
 	margin: 0 auto;
 }
 
-h1, section {
+h1, section, footer {
 	margin: auto;
 	max-width: 72rem;
 }
@@ -84,12 +69,11 @@ p, h2, h3 {
 	transform: skew(2deg);
 }
 
-/*----- Grid -----*/
 section:nth-of-type(1) {
 	right: 5rem;
 	border-left-width: 0.4rem;
 	border-left-style: solid;
-	border-image: -webkit-linear-gradient(-90deg, rgb(239,45,86), rgb(61,165,217), rgb(135,163,48)) 1 100%;
+	border-image: linear-gradient(0deg, rgb(239,45,86), rgb(61,165,217), rgb(135,163,48)) 1 100%;
 	padding-left: 3rem;
 	padding-bottom: 3rem;
 	margin-bottom: -4rem;
@@ -99,14 +83,24 @@ section:nth-of-type(3) {
 	left: 5rem;
 	border-right-width: 0.4rem;
 	border-right-style: solid;
-	border-image: -webkit-linear-gradient(-90deg, rgb(135,163,48), rgb(61,165,217), rgb(239,45,86)) 1 100%;
+	border-image: linear-gradient(0deg, rgb(135,163,48), rgb(61,165,217), rgb(239,45,86)) 1 100%;
 	padding-right: 3rem;
 	padding-top: 3rem;
 	margin-top: -7rem;
 }
 
+footer {
+	margin-top: 3rem;
+	border-top: 0.1em solid rgb(0, 0, 0);
+	padding: 0rem 3.5rem 3rem 3.5rem;
+	margin-bottom: -4rem;
+}
 
-/*----- Type -----*/
+footer p {
+	display: inline;
+	font-size: 1.25em;
+}
+
 h1, h2, h3 {
 	font-family: "GT-AmericaBold", sans-serif;
 	font-weight: 600;
@@ -128,7 +122,7 @@ h2 {
 }
 
 h3 {
-	font-size: 2.0em;
+	font-size: 1.7em;
 	line-height: 1;
 	margin: -0.5em auto -0.5em auto;
 }
@@ -139,12 +133,6 @@ p {
 	margin-top: 0.5em;
 	margin-bottom: 1em;
 	text-align: left;
-}
-
-em {
-	font-family: 'ChronicleDisplayItalic', serif;
-	font-weight: normal;
-	font-style: normal;
 }
 
 strong {
@@ -158,11 +146,14 @@ a {
 	color: rgb(84,19,197);
 }
 
+::selection {
+	background: rgb(227,217,246);
+}
+
 .name {
 	color: rgb(84,19,197);
 }
 
-/*----- Form -----*/
 form {
 	display: grid;
 	grid-template-columns: auto;
@@ -218,11 +209,10 @@ input#submit {
 	position: relative;
 	width: auto;
 	padding: 1rem 2rem;
-	background: rgb(84,19,197);
-	color: rgb(255, 	255, 255	)
+	background: rgb(84, 19, 197);
+	color: rgb(255, 255, 255);
+	margin: 0 auto;
 }
-
-/*----- Responsive -----*/
 
 @media screen and (max-width: 950px) {
 	section {
@@ -289,25 +279,5 @@ input#submit {
 	p {
 		font-size: 2.6em;
 		line-height: 1.5em;
-	}
-}
-
-@media (prefers-color-scheme: dark) {
-	body {
-		background-color: rgb(36, 37, 40);	
-		color: rgb(255, 255, 255);
-	}
-	.name, a {
-		color: rgb(138,98,206);
-	}
-	input, textarea {
-		background-color: rgb(23, 24, 26);
-		color: rgb(240, 240, 240);
-	}
-	input:focus, textarea:focus {
-		border-color: rgb(138,98,206);
-	}
-	::placeholder {
-		color: rgb(192, 192, 192);
 	}
 }
