@@ -9,6 +9,4 @@ This is currently a static website deployed to GitHub Pages.
 
 ## Credits
 1. [Normalize.css](https://github.com/necolas/normalize.css/)
-2. [jsDelivr](https://www.jsdelivr.com) for CDN
-3. [GitHub Pages](https://pages.github.com) for hosting
-4. [Simple Icons](https://github.com/simple-icons/simple-icons)
+2. [jsDelivr](https://github.com/jsdelivr/jsdelivr) for CDN
