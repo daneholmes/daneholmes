@@ -189,6 +189,25 @@ hr:after {
     content: '***';
 }
 
+picture {
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	z-index: 1;
+	display: block;
+	background-position: 50% 50%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	border-radius: 0.2em;
+}
+
+img, source {
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+	filter: grayscale(100%);
+}
+
 /* Form */
 form {
 	display: grid;
