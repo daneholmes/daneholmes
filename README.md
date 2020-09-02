@@ -1,2 +1,2 @@
 # daneholmes.com
-My one-page portfolio
+My portfolio website
