@@ -1,2 +1,5 @@
 name: Dane Holmes
 title: Dane Holmes
+
+plugins:
+  - jekyll-sitemap

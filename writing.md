@@ -1,5 +1,5 @@
 ---
-title: Writing Portfolio
+title: Writing Projects
 layout: writing
 ---
 
