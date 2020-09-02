@@ -1,0 +1,13 @@
+{% for post in site.tags.Writing %}
+<div class="row">
+    
+    <div class="column-third">
+        <p class="strong"><a href="{{ post.url }}" class="visible">{{ post.title }}</a></p>
+        <p class="time">{{ post.date | date: '%m.%d.%Y' }}</p>
+    </div>
+    
+    <div class="column-twothird">
+        <p><a href="{{ post.url }}">{{ post.excerpt }}</a></p>
+    </div>
+</div>
+{% endfor %}

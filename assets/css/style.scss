@@ -1,0 +1,201 @@
+---
+---
+$purple: rgb(141, 98, 217);
+$black: rgb(34, 34, 34);
+$white: rgb(250, 250, 250);
+
+/* Import */
+@font-face {
+	font-family: Public Sans;
+	src: url('{{ site.baseurl }}/assets/font/PublicSans.ttf');
+	font-weight: normal;
+	font-style: normal;
+ }
+ 
+ @font-face {
+	 font-family: Public Sans Italic;
+	 src: url('{{ site.baseurl }}/assets/font/PublicSans-Italic.ttf');
+	 font-weight: normal;
+	 font-style: normal;
+  }
+
+html {
+	font-size: 20px;
+	background-color: $white;
+}
+
+body {
+	font-family: Public Sans, sans-serif;
+	font-variation-settings: 'wght' 300;
+	font-size: 1.2rem;
+	line-height: 1.7rem;
+	color: $black;
+}
+
+.container {
+	max-width: 50rem;
+	margin: 0 auto;
+}
+
+.row {
+	min-width: 100%;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.column-third {
+	float: left;
+	width: 33%
+}
+
+.column-half {
+	float: left;
+	width: 50%;
+}
+
+.column-twothird {
+	float: left;
+	width: 66%;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.header {
+	padding: 15vh 0 10vh 0;
+}
+
+h1 {
+	font-variation-settings: 'wght' 700;
+	font-size: 1.6rem;
+}
+
+h2 {
+	font-variation-settings: 'wght' 400;
+	font-size: 1.4rem;
+}
+
+p {
+	
+}
+
+a {
+	color: $black;
+	text-decoration: none;
+	transition: color 0.5s;
+}
+
+a:hover{
+	color: $purple;
+}
+
+.visible {
+	color: $purple;
+}
+
+.visible:hover {
+	color: rgb(136, 136, 136);
+}
+
+.time {
+	margin-top: -1rem;
+}
+
+strong {
+	font-variation-settings: 'wght' 600;
+}
+
+.strong {
+	font-variation-settings: 'wght' 600;
+}
+
+picture {
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	z-index: 1;
+	background-size: contain;
+	background-repeat: no-repeat;
+	border-radius: 0.8rem;
+}
+
+img, source {
+	width: 100%;
+	max-height: 50vh;
+	object-fit: cover;
+	object-position: 0% 0%;
+	margin: 0 auto;
+}
+
+::selection {
+	background: rgb(227,217,246);
+}
+
+/* Form */
+form {
+	display: grid;
+	grid-row-gap: 0.5em;
+}
+
+input, textarea {
+	border: 0.1rem solid $black;
+	border-radius: 0.2em;
+	color: $black;
+	background-color: $white;
+	font-size: 1.1em;
+	padding: 0.55em 0.55em;
+}
+
+textarea {
+	height: 5.2em;
+	resize: vertical;
+}
+
+label {
+	display: none;
+}
+
+::placeholder {
+	color: $black;
+}
+
+input:focus, textarea:focus {
+	outline: none;
+	border: 0.1rem solid $black;
+}
+
+.button {
+	text-align: center;	
+}
+
+input#submit {
+	cursor: pointer;
+	width: 40%;
+	background: $black;
+	color: $white;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+	.container {
+		padding: 0 2rem;
+	}
+	.column-third, .column-half, .column-twothird {
+		min-width: 100%;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.container {
+		padding: 0 2rem;
+	}
+}
