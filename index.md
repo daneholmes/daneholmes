@@ -1,6 +1,5 @@
 ---
 title: Welcome
-order: 1
 layout: homepage
 ---
 
@@ -26,7 +25,7 @@ Outside of school and work, I spend my time making websites, like this one, teac
 <div class="row">
 
 <div class="column-third">
-<p class="strong"><a href="{{ site.baseurl }}/writing" class="visible">Writing</a></p>
+<p class="strong post"><a href="{{ site.baseurl }}/writing" class="visible">Writing</a></p>
 </div>
 
 <div class="column-twothird">
@@ -38,7 +37,7 @@ Outside of school and work, I spend my time making websites, like this one, teac
 <div class="row">
 
 <div class="column-third">
-<p class="strong"><a href="{{ site.baseurl }}/programming" class="visible">Programming</a></p>
+<p class="strong post"><a href="{{ site.baseurl }}/programming" class="visible">Programming</a></p>
 </div>
 
 <div class="column-twothird">
@@ -50,7 +49,7 @@ Outside of school and work, I spend my time making websites, like this one, teac
 <div class="row">
 
 <div class="column-third">
-<p class="strong"><a href="{{ site.baseurl }}/miscellaneous" class="visible">Miscellaneous</a></p>
+<p class="strong post"><a href="{{ site.baseurl }}/miscellaneous" class="visible">Miscellaneous</a></p>
 </div>
 
 <div class="column-twothird">

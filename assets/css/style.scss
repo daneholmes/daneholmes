@@ -193,11 +193,23 @@ input#submit {
 
 /* Responsive */
 @media screen and (max-width: 600px) {
+	html {
+		font-size: 17px;
+	}
+	.header {
+		padding: 15vh 0 5vh 0;
+	}
 	.container {
 		padding: 0 2rem;
 	}
 	.column-third, .column-half, .column-twothird {
 		min-width: 100%;
+	}
+	.post {
+		margin-bottom: -0.5rem;
+	}
+	.time {
+		margin-bottom: -0.5rem;
 	}
 }
 
