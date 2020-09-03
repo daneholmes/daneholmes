@@ -17,4 +17,5 @@ This is currently a jekyll website deployed to GitHub Pages.
 * [Porkbun](https://porkbun.com)
 
 ## Copyright
+You can freely copy/distribute/modify any of the code used to build the site. However, all written and visuial content is my property.
 Copyright © 2020 Dane Holmes
