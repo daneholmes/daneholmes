@@ -37,5 +37,8 @@ There is also a section with a rough overview of how prefixes work.
 <source srcset="{{ site.baseurl }}/assets/images/affixionary/neo-definition.png" type="image/png">
 <img alt="A sample prefix definition: neo" src="{{ site.baseurl }}/assets/images/affixionary/neo-definition.png">
 </picture>
+<<<<<<< HEAD:_posts/2018-04-17-Affixionary.md
 
 This is still a work-in-progress, but I have not had a chance to work on it recently. The next big project is to add more prefixes and start on suffixes. I then want to make the search functionality on the website much more clear as well as autocomplete and auto-return results. Further down the pipeline I would like to move it off Wordpress and make a publicly callable api.
+=======
+>>>>>>> b9698f837529068381c1669112d03a503e602ef4:_posts/2018-04-17-affixionary.md
