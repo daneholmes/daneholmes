@@ -15,3 +15,6 @@ This is currently a jekyll website deployed to GitHub Pages.
 * [Pageclip](https://pageclip.co)
 * [Cloudflare](https://cloudflare.com)
 * [Porkbun](https://porkbun.com)
+
+## Copyright
+Copyright © 2020 Dane Holmes
