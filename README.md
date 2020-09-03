@@ -11,6 +11,7 @@ This is currently a jekyll website deployed to GitHub Pages.
 
 ## Services in Use
 * [Jekyll](https://github.com/jekyll/jekyll)
-* [PageClip](https://pageclip.co)
+* [GitHub Pages](https://pages.github.com)
+* [Pageclip](https://pageclip.co)
 * [Cloudflare](https://cloudflare.com)
 * [Porkbun](https://porkbun.com)
