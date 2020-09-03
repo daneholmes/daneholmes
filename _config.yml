@@ -1,5 +1,7 @@
-name: Dane Holmes
+name: daneholmes.com
 title: Dane Holmes
+author: Dane Holmes
+url: daneholmes.com 
 
 plugins:
   - jekyll-sitemap
