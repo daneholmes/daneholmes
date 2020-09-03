@@ -11,13 +11,6 @@ $white: rgb(250, 250, 250);
 	font-weight: normal;
 	font-style: normal;
  }
- 
- @font-face {
-	 font-family: Public Sans Italic;
-	 src: url('{{ site.baseurl }}/assets/font/PublicSans-Italic.ttf');
-	 font-weight: normal;
-	 font-style: normal;
-  }
 
 html {
 	font-size: 20px;
