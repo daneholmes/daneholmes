@@ -13,7 +13,7 @@ I currently live in Chicago, but prior to living here, I lived in Tokyo, Japan. 
 <picture>
 <source srcset="{{ site.baseurl }}/assets/images/profile-picture.webp" type="image/webp" class="cover">
 <source srcset="{{ site.baseurl }}/assets/images/profile-picture.jpeg" type="image/jpeg" class="cover">
-<img alt="A picture of Dane at the lake" src="{{ site.baseurl }}/assets/images/profile-picture.jpeg" class="cover">
+<img alt="A picture of Dane before the first day of school." src="{{ site.baseurl }}/assets/images/profile-picture.jpeg" class="cover">
 </picture>
 
 <strong>Fun Fact:</strong> As a Cyber Navigator, I helped at least 15 people get jobs, assisted with one divorce, edited one novel, saved one house, filed all kinds of taxes, and so much more.
@@ -60,4 +60,3 @@ Outside of school and work, I spend my time making websites, like this one, teac
 
 <h2>Contact</h2>
 Let me know if you have questions about anything I've written here. Just fill out the form below. I will try my best to reply as quickly as I possibly can.
-
