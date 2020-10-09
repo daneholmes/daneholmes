@@ -11,6 +11,7 @@ I am a currently a fourth-year student at Northwestern University where I am maj
 I currently live in Chicago, but prior to living here, I lived in Tokyo, Japan. After graduating from Lane Tech College Prep in 2017, I went to Truman College and graduated as a Presidential Scholar with an Associate of Arts degree in a year and a half. After finishing community college, before starting at Northwestern, I worked for the Chicago Public Library as a Cyber Navigator. There, I traveled all over Chicago helping amazing people with countless issues, and I would not trade the experience for anything.
 
 <picture>
+<source srcset="{{ site.baseurl }}/assets/images/profile-picture.avif" type="image/avif" class="cover">
 <source srcset="{{ site.baseurl }}/assets/images/profile-picture.webp" type="image/webp" class="cover">
 <img src="{{ site.baseurl }}/assets/images/profile-picture.jpg" alt="A picture of Dane before the first day of school" class="cover">
 </picture>
