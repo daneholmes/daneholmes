@@ -1,0 +1,338 @@
+html {
+	font-size: 100%;
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	background-color: rgb(255, 255, 255);
+	color: rgb(10, 10, 10);
+}
+
+h1 {
+	font-size: 2.25em;
+	font-weight: 800;
+	padding: 1em 0 0.2em;
+}
+
+h2 {
+	font-size: 1em;
+	font-weight: 600;
+	color: rgb(140, 75, 231);
+	text-align: left;
+}
+
+h2 a {
+	text-decoration: none;
+	color: rgb(140, 75, 231);
+}
+
+h2 a:visited {
+	color: rgb(140, 75, 231);
+}
+
+p {
+	font-size: 1em;
+	padding: 0 0 1em;
+	text-align: left;
+}
+
+.xl {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.xs {
+	color: rgb(82, 82, 91);
+	font-size: 0.875em;
+	line-height: 1.25;
+	margin: -0.9em 0;
+	text-align: left;
+}
+
+@media screen and (max-width: 45rem) {
+	.xl {
+		text-align: left;
+	}
+}
+
+/* 
+|---------------|
+| GRID AND FLEX |
+|---------------|
+ */
+
+.container {
+	max-width: 60rem;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.column {
+	text-align: center;
+	flex-grow: 1;
+	flex-shrink: 1;
+	margin: 0.5%;
+	padding: 0.5%;
+}
+
+.col-1 {
+	max-width: calc(100% / 12);
+}
+
+.col-2 {
+	max-width: calc(100% / 12 * 2);
+}
+
+.col-3 {
+	max-width: calc(100% / 12 * 3);
+}
+
+.col-4 {
+	max-width: calc(100% / 12 * 4);
+}
+
+.col-5 {
+	max-width: calc(100% / 12 * 5);
+}
+
+.col-6 {
+	max-width: calc(100% / 2);
+}
+
+@media screen and (max-width: 45rem) {
+	.container {
+		overflow: auto;
+	}
+
+	.column {
+		min-width: 100%;
+		width: 100%;
+		margin: 0.5% 0;
+		text-align: left;
+		padding: 0 2%;
+	}
+}
+
+/* 
+|-----------------|
+| HEADER AND MENU |
+|-----------------|
+ */
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+nav a {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+
+.header {
+	text-align: center;
+	flex-grow: 1;
+	flex-shrink: 1;
+	margin: 0;
+	padding: 0;
+	background-color: rgba(250, 250, 255, 0.9);
+	border-bottom: 1px solid #dedede;
+	position: fixed;
+	width: 100%;
+}
+
+ul {
+	list-style: none;
+}
+
+li a {
+	padding: 0.5em 2em;
+	border-radius: 5px;
+}
+
+li a:hover {
+	background-color: rgb(244, 237, 253);
+	color: rgb(163, 111, 235);
+}
+
+.active {
+	background-color: rgb(244, 237, 253);
+	color: rgb(163, 111, 235);
+}
+
+.menu {
+	display: flex;
+	justify-content: space-around;
+}
+
+/* 
+|-------|
+| MEDIA |
+|-------|
+ */
+
+picture {
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	z-index: 1;
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-bottom: 1.2em;
+}
+
+img,
+source {
+	width: 100%;
+	object-fit: cover;
+	object-position: 0% 0%;
+	margin: 0 auto;
+}
+
+img.cover,
+source.cover {
+	width: 100%;
+	min-height: 25vh;
+	max-height: 50vh;
+	object-fit: cover;
+	object-position: 50% 50%;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+button {
+	background-color: rgb(163, 111, 235);
+	color: rgb(255, 255, 255);
+	border-radius: 5px;
+	border: 1px solid #dedede;
+	display: inline-block;
+	cursor: pointer;
+	padding: 1.2em 2em;
+}
+
+button:hover {
+	background-color: rgb(140, 75, 231);
+}
+
+button a {
+	text-decoration: none;
+	color: white;
+}
+
+/*
+|-----------|
+| TIME LINE |
+|-----------|
+*/
+.timeline-month {
+	text-align: left;
+	display: flex;
+	align-items: center;
+	font-size: 1.25em;
+	font-weight: 700;
+}
+
+.timeline-month:after {
+	content: '';
+	flex: 1;
+	margin-left: 1rem;
+	height: 1px;
+	background-color: #000;
+}
+
+.timeline-box {
+	border-left: 1px solid #000;
+	margin: 0.5em 0 0.5em 1em;
+	padding: 0.5em 0 0.5em 1em;	
+}
+
+.timeline-event {
+	text-align: left;
+	display: flex;
+	align-items: center;
+	font-size: 1em;
+	font-weight: 700;
+}
+
+.timeline-date {
+	text-align: left;
+	display: flex;
+	align-items: center;
+	font-size: 1em;
+	font-weight: 300;
+	color: #444;
+}
+
+.timeline-text{
+	align-content: center;
+	margin: 1em auto 0 auto;
+	background-color: rgb(250,250,250);
+	max-width: 75%;
+	padding: 3em 1em;
+	border-radius: 10px;
+}
+
+/* 
+|-----------|
+| DARK MODE |
+|-----------|
+ */
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: rgb(20, 20, 20);
+		color: rgb(250, 250, 250);
+	}
+
+	nav a {
+		color: rgb(250, 250, 250);
+	}
+
+	.header {
+		background-color: rgba(15, 15, 15, 0.9);
+		color: rgb(250, 250, 250);
+		border: 1px solid #454545;
+	}
+
+	li a:hover {
+		color: rgb(163, 111, 235);
+		background-color: rgb(72, 53, 98);
+	}
+
+	.active {
+		color: rgb(163, 111, 235);
+		background-color: rgb(72, 53, 98);
+	}
+
+	button {
+		background-color: rgb(111, 78, 157);
+		border: 1px solid #454545;
+	}
+	
+	.timeline-month:after {
+		content: '';
+		flex: 1;
+		margin-left: 1rem;
+		height: 1px;
+		background-color: #fff;
+	}
+	
+	.timeline-box {
+		border-left: 1px solid #fff;
+		margin: 0.5em 0 0.5em 1em;
+		padding: 0.5em 0 0.5em 1em;	
+	}
+	
+	.timeline-text{
+		align-content: center;
+		margin: 1em auto 0 auto;
+		background-color: rgb(16,16,16);
+		max-width: 75%;
+		padding: 3em 1em;
+		border-radius: 10px;
+	}
+}
