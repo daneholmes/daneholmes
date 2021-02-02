@@ -282,18 +282,15 @@ button a {
 |--------------|
  */
 
-form {
-	display: grid;
-	grid-row-gap: 0.5em;
-}
-
 input,
 textarea {
+	width: 100%;
 	border: 0.1rem solid rgb(0, 0, 0);
 	border-radius: 0.2em;
 	color: rgb(0, 0, 0);
 	font-size: 1.1em;
-	padding: 0.55em 0.55em;
+	padding: 0.5em 0.5em;
+	margin-bottom: 0.3em;
 }
 
 textarea {
@@ -316,18 +313,14 @@ textarea:focus {
 }
 
 input#submit {
-	width: 20%;
+	max-width: 25%;
 	background: rgb(163, 111, 235);
 	color: rgb(255, 255, 255);
 	border-radius: 5px;
 	border: 1px solid #dedede;
 	cursor: pointer;
-	padding: 1em 1em;
+	padding: 1.2em 2em;
 	display: inline;
-}
-
-#submit {
-	align-items: center;
 	text-align: center;
 }
 
